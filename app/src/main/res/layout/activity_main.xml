@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/colorAndFont"
+        android:text="@string/colors_and_fonts"
+        style="@style/ActivityLabelStyle"/>
+
+    <TextView
+        android:id="@+id/style"
+        style="@style/ActivityLabelStyle"
+        android:text="@string/styles_and_themes" />
+
+    <TextView
+        android:id="@+id/responsiveLayouts"
+        style="@style/ActivityLabelStyle"
+        android:text="@string/responsive_layouts" />
+
+    <TextView
+        android:id="@+id/touchSelector"
+        style="@style/ActivityLabelStyle"
+        android:text="@string/touch_selectors" />
+
+</LinearLayout>

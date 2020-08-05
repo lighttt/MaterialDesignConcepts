@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UIConcepts</string>
+    <string name="colors_and_fonts">Colors and Fonts</string>
+    <string name="styles_and_themes">Styles and Themes</string>
+    <string name="responsive_layouts">Responsive Layouts</string>
+    <string name="touch_selectors">Touch Selectors</string>
+    <string name="light_56sp">Light 56sp</string>
+    <string name="thin_italic_45sp">Thin Italic 45sp</string>
+    <string name="condensed_34sp">Condensed 34sp</string>
+    <string name="image_placeholder">Image Placeholder</string>
+    <string name="material_design">Material Design</string>
+    <string name="july_5_2020">July 5, 2020</string>
+    <string name="sample_body_text">Responsive design is the act of creating designs that respond
+        to a variety of screen sizes, shapes, and orientations.</string>
+
+
+</resources>

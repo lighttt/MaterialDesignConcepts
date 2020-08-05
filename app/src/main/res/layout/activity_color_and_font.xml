@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ColorAndFontActivity">
+
+    <View
+        android:id="@+id/primaryLight"
+        android:background="@color/colorPrimaryLight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <View
+        android:id="@+id/primary"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <View
+        android:id="@+id/primaryDark"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <View
+        android:id="@+id/accent"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <TextView
+        android:id="@+id/text56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/light_56sp"
+        android:textSize="56sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/text45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thin_italic_45sp"
+        android:textSize="45sp"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/text34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/condensed_34sp"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:id="@+id/text24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regular 24sp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/text20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium 20sp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"/>
+
+
+    <TextView
+        android:id="@+id/text16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smallcaps 16sp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+
+</LinearLayout>
