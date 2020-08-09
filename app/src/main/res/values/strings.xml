@@ -12,6 +12,10 @@
     <string name="july_5_2020">July 5, 2020</string>
     <string name="sample_body_text">Responsive design is the act of creating designs that respond
         to a variety of screen sizes, shapes, and orientations.</string>
+    <string name="inbox">Inbox</string>
+    <string name="icon_of_a_person">Icon of a person</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
 
 
 </resources>
